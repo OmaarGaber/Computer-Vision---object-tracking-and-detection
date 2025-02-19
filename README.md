@@ -1,4 +1,4 @@
-# Object Detection and Tracking with OpenCV
+# Object Detection and Tracking with OpenCV (Webcam / attached Video)
 
 This project demonstrates a basic motion detection and object tracking system using OpenCV. It captures a video stream, processes the frames to detect motion, and highlights areas of movement with bounding rectangles. The processed video is saved to an output file.
 
