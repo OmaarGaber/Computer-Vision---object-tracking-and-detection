@@ -50,18 +50,13 @@ The processed frames are resized and saved to an AVI file using OpenCV's `VideoW
 The program releases the video capture and writer objects and closes all OpenCV windows upon termination.
 
 ## Usage
-
-### Prerequisites
 - Python 3.7+
-- OpenCV library (`pip install opencv-python`)
+- OpenCV library
 - A webcam or video input device
 
 ### Running the Code
 1. Ensure the required libraries are installed.
 2. Run the Python script in the notebook:
-   ```python
-   python object_tracking.py
-   ```
 3. The live video feed with motion detection will appear in a window.
 4. Press `Esc` to stop the program.
 
