@@ -82,6 +82,3 @@ The processed video is saved as `output.avi` in the current working directory. I
 - Integrate deep learning models for object classification.
 - Add multi-object tracking and trajectory prediction.
 
-## License
-This project is licensed under the MIT License.
-
