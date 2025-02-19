@@ -63,17 +63,3 @@ The program releases the video capture and writer objects and closes all OpenCV 
 ### Output File
 The processed video is saved as `output.avi` in the current working directory. It includes bounding boxes and motion status messages.
 
-## Customization
-- **Frame Size**: Adjust the resolution of the output video.
-- **Motion Sensitivity**: Modify the contour area threshold to detect smaller or larger movements.
-- **Output Format**: Change the codec or file format for the saved video.
-
-## Limitations
-- This system detects motion but does not distinguish between different objects.
-- It is sensitive to lighting changes and may produce false positives in variable lighting conditions.
-
-## Future Enhancements
-- Implement advanced object tracking algorithms (e.g., Optical Flow, Kalman Filters).
-- Integrate deep learning models for object classification.
-- Add multi-object tracking and trajectory prediction.
-
